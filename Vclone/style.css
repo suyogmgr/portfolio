@@ -6,6 +6,7 @@
 body {
   font-family: "Poppins", sans-serif;
   color: #fff;
+  overflow-x: hidden;
 }
 .poppins-light {
   font-family: "Poppins", sans-serif;
@@ -41,45 +42,96 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
-
-.logo {
-  text-align: center;
-  margin: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
 }
 
 .logo img {
-  width: 120px;
-  height: auto;
+  max-height: 40px;
 }
 
 .nav-links {
   list-style: none;
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 
-.nav-links li{
-    margin-right: 50px;
+.nav-links li {
+  margin-right: 20px;
 }
 
-nav ul li a{
-    text-decoration: none;
-    color:rgb(102, 102, 102);
-    font-size: 14px;
+nav ul li a {
+  text-decoration: none;
+  color: rgb(161, 165, 199);
+  font-size: 14px;
 }
 
-nav ul li a:hover{
-    font-size: 16px;
+nav ul li a:hover {
+  color: rgb(0, 0, 0);
 }
 
-.btn{
-    background-color: #fff;
-    color: rgb(63, 108, 243);
-    padding: 10px 30px;
-    border-radius: 20px;
-    cursor: pointer;
-    border:2px solid rgb(102, 135, 233);
+.btn {
+  background-color: #fff;
+  color: rgb(112, 140, 221);
+  padding: 10px 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 2px solid rgb(148, 158, 187);
 }
-.btn:hover{
-    background-color: rgb(209, 213, 226);
+.btn:hover {
+  background-color: rgb(209, 213, 226);
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+.viber-logo i {
+  color: #fff;
+  margin-bottom: 15px;
+  font-size: 65px;
+  display: block;
+  position: relative;
+  margin-left: 10%;
+  padding-top: 120px;
+}
+
+.hero-content {
+  justify-content: space-around;
+  margin: 10px 0;
+}
+
+.hero-content h1 {
+  max-width: 650px;
+  padding: 10px 0;
+  margin-top: 0;
+  margin-left: 10%;
+  font-size: 54px;
+  font-weight: 200;
+}
+
+.hero-content h2 {
+  margin-left: 10%;
+  font-weight: 200;
+  max-width: 650px;
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px 0;
+}
+
+.download-btn {
+  cursor: pointer;
+  padding: 13px 45px;
+  border-radius: 20px;
+  background-color: rgb(20, 224, 20);
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  border: none;
+  margin-left: 10%;
+}
+
+.download-btn:hover {
+  background-color: rgb(30, 154, 30);
 }
