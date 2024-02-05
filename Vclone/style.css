@@ -162,6 +162,6 @@ video {
   font-size: 15px;
 }
 
-.nxt-page{
-
+.second-pg{
+  display: flex;
 }
