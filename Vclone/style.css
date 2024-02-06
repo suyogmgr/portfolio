@@ -164,4 +164,18 @@ video {
 
 .second-pg{
   display: flex;
+  justify-content: center;
 }
+
+.btn-box{
+  text-align: center;
+}
+
+.discover-btn{
+  padding: 16px 30px;
+  border-radius: 30px;
+  border: none;
+  background-color:rgb(20, 224, 20);
+  color:#fff;
+  font-size: 16px;
+} 
