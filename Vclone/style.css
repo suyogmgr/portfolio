@@ -146,36 +146,129 @@ video {
   background-color: rgb(30, 154, 30);
 }
 
-.feature-title h2{ 
-  margin-top: 20%;
-  color: rgb(90, 64, 64);
+.feature-title{
+  padding-bottom: 100px;
   text-align: center;
+  margin-top: 155px;
+}
+
+.feature-title h2{ 
+  color: #323232;
   margin-bottom: 20px;
-  font-weight: 200;
+  font-weight: 100;
   font-size: 44px;
+  font-family: Roboto,sans-serif;
 }
 
 .feature-title p{
-  color:rgb(38, 32, 32);
-  text-align: center;
-  font-weight: 300;
+  color:#323232;
+  font-weight: 200;
   font-size: 15px;
+  font-family: Roboto,sans-serif;
 }
 
-.second-pg{
+/* .second-pg{
   display: flex;
   justify-content: center;
 }
 
+.second-pg .nxt-page{
+  color: rgb(83, 74, 74);
+  font-size: 14px;
+  max-width: 100%;
+  height: auto;
+}
+
+.second-pg .nxt-page h3{
+  padding-top: 30px;
+} */
+
+.img-fluid{
+  max-width: ;
+  height: auto;
+}
+
+.second-pg{
+  display: flex;
+  padding: 0 15%;
+  font-family: Roboto,sans-serif;
+  text-align: center;
+  color: #453838;
+}
+
+.second-pg h3{
+  padding: 35px 0 10px;
+  font-size: 20px;
+}
+
+.second-pg p{
+  font: 14px;
+  padding-right: 10px;
+}
+
 .btn-box{
   text-align: center;
+  padding:60px;
 }
 
 .discover-btn{
   padding: 16px 30px;
   border-radius: 30px;
-  border: none;
-  background-color:rgb(20, 224, 20);
-  color:#fff;
+  border: 1px solid #665cac;
+  background-color:#fff;
+  color:#665cac;
+  cursor: pointer;
   font-size: 16px;
+  
 } 
+
+.discover-btn:hover{
+  background-color: rgba(101, 93, 171, 0.1);
+}
+
+.new-content{
+  background-color: #e6ecf0;
+  padding-top: 47px;
+  display: flex;
+}
+
+.mob-text{
+  color: #323232;
+  text-align: justify;
+  max-width: 380px;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.mob-img{
+  max-width: 100%;
+  height: auto;
+  padding-left: 100px;
+}
+
+.mob-text h2{
+  font-size: 44px;
+  font-weight: 200;
+}
+
+.mob-text p{
+  font-weight:200;
+  font-size: 16px;
+}
+
+.mob-btn{
+  text-align: center;
+}
+
+.mob-btn button{
+  padding: 18px 40px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 1px solid #665cac;
+  font-size: 16px;
+  color: #665cac;
+}
+
+.mob-btn button:hover{
+  background-color:#cdcae0;
+}
