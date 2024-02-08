@@ -193,17 +193,18 @@ video {
   padding: 0 15%;
   font-family: Roboto,sans-serif;
   text-align: center;
-  color: #453838;
 }
 
 .second-pg h3{
   padding: 35px 0 10px;
   font-size: 20px;
+  color: #434242;
 }
 
 .second-pg p{
   font: 14px;
   padding-right: 10px;
+  color: #755f5f;
 }
 
 .btn-box{
@@ -228,8 +229,8 @@ video {
 
 .new-content{
   background-color: #e6ecf0;
-  padding-top: 47px;
   display: flex;
+  padding-top: 40px;
 }
 
 .mob-text{
@@ -243,7 +244,8 @@ video {
 .mob-img{
   max-width: 100%;
   height: auto;
-  padding-left: 100px;
+  padding-left: 220px;
+  align-items: flex-end;
 }
 
 .mob-text h2{
@@ -257,11 +259,11 @@ video {
 }
 
 .mob-btn{
-  text-align: center;
+  padding-top: 20px;
 }
 
 .mob-btn button{
-  padding: 18px 40px;
+  padding: 15px 35px;
   border-radius: 30px;
   cursor: pointer;
   border: 1px solid #665cac;
@@ -272,3 +274,53 @@ video {
 .mob-btn button:hover{
   background-color:#cdcae0;
 }
+
+.new-content2{
+  background-color: #dfebf3;
+  padding-top: 50px;
+  display: flex;
+}
+
+.mob-img2 img{
+  max-width: 70%;
+  height: auto;
+  margin-left:150px;
+
+}
+
+.secure-head{
+  color: #323232;
+  max-width: 380px;
+  text-align: justify;
+  padding-bottom: 60px;
+  margin-left: 220px;
+  padding-top: 100px;
+}
+
+.secure-head h2{
+  font-size: 44px;
+  font-weight: 200;
+}
+
+.secure-head p{
+  font-weight:200;
+  font-size: 16px;
+  padding-bottom: 40px;
+}
+
+.mob-btn2 button{
+  padding: 15px 35px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 1px solid #665cac;
+  font-size: 16px;
+  color: #665cac;
+  background-color: #dfebf3;
+
+}
+
+.mob-btn2 button:hover{
+  background-color: #d4d2df;
+}
+
+
