@@ -368,5 +368,23 @@ video {
 
 
 .content-info{
-  background-color: #2596be;
+  background-color: rgba(87,78,146,255);
+  padding: 80px;
+}
+
+.row{
+  display: flex;
+  
+}
+
+.viber-content-1 ul{
+  list-style-type: none;
+}
+
+.viber-content-2 ul{
+  list-style-type: none;
+}
+
+.viber-content-3 ul{
+  list-style: none;
 }
