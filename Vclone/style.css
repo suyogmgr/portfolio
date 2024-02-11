@@ -367,24 +367,90 @@ video {
 } 
 
 
-.content-info{
-  background-color: rgba(87,78,146,255);
+.wrapper{
   padding: 80px;
+  background-color: rgba(87,78,146,255);
 }
 
 .row{
+  justify-content:space-evenly;
   display: flex;
-  
+}
+
+.row h3{
+  font-size: 18px;
+  font-weight: 300;
+  color: hsla(0,0%,100%,.3);
+  padding-bottom: 3px;
 }
 
 .viber-content-1 ul{
   list-style-type: none;
 }
 
+.viber-content-1 ul li a{
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 200;
+  color: #fff;
+  line-height: 1.6rem;
+}
+
 .viber-content-2 ul{
   list-style-type: none;
 }
 
+.viber-content-2 ul li a{
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 200;
+  color: #fff;
+  line-height: 1.6rem;
+}
+
 .viber-content-3 ul{
   list-style: none;
+}
+
+.viber-content-3 ul li a{
+  text-decoration:none;
+  font-size: 14px;
+  font-weight: 200;
+  color: #fff;
+  line-height: 1.6rem;
+}
+
+.dropdown-menu{
+  position: relative;
+}
+
+.icons{
+  text-align: end;
+}
+
+
+
+
+.footer-nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-logo img{
+  max-height: 80px;
+  padding-left:120px;
+}
+
+.extra-pages ul{
+  display: flex;
+  padding: 50px;
+  column-gap: 20px;
+  list-style: none;
+}
+
+.extra-pages ul li a{
+  color: rgb(161, 165, 199);
+  font-size: 13px;
+  text-decoration: none;
 }
