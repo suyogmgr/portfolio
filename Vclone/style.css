@@ -398,6 +398,7 @@ video {
 
 .viber-content-2 ul{
   list-style-type: none;
+  max-width: 200px;
 }
 
 .viber-content-2 ul li a{
@@ -422,13 +423,34 @@ video {
 
 .dropdown-menu{
   position: relative;
+
+}
+.dropdown-menu select{
+  font-size: 13px;
+  font-weight: 100;
+  border-radius: 5px;
+  padding: 10px 60px;
+  background-color: rgba(87,78,146,255);
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid hsla(0,0%,100%,.3);
+}
+
+.dropdown-menu select option{
+  background-color: #fff;
+  color: #323232;
+  text-align: left;
 }
 
 .icons{
   text-align: end;
+  font-size: 30px;
+  max-width: 85%;
 }
-
-
+.icons p{
+  font-size: 10px;
+  padding-top: 10px;
+}
 
 
 .footer-nav{
@@ -438,7 +460,7 @@ video {
 }
 
 .footer-logo img{
-  max-height: 80px;
+  max-height: 70px;
   padding-left:120px;
 }
 
@@ -454,3 +476,4 @@ video {
   font-size: 13px;
   text-decoration: none;
 }
+
