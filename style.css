@@ -5,104 +5,73 @@
 }
 
 body {
-  background-color: rgb(2, 2, 2);
+  background-color: rgba(0, 4, 8);
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-nav {
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+
+.nav-links {
+  list-style-type: none;
   display: flex;
-  justify-content: space-around;
   align-items: center;
-  height: 80px;
-  background-color: rgb(8, 8, 10);
-}
-
-nav ul {
-  display: flex;
   justify-content: center;
+  column-gap: 80px;
+  padding: 20px 0;
 }
 
-nav ul li {
-  list-style: none;
-  margin: 0 2rem;
-}
-
-nav ul li a {
+.nav-link {
   text-decoration: none;
   color: #fff;
 }
 
-nav ul li a:hover {
-  color: rgb(110, 110, 194);
-  font-size: 1.02rem;
-}
-
-.left {
-  font-size: 1.5rem;
-}
-.right {
-  cursor: pointer;
-}
-.mainSection {
+.main-body {
   display: flex;
   justify-content: space-around;
-  margin: 80px 0;
   align-items: center;
 }
 
-.leftSection {
-  font-size: 2.6rem;
+.body-container {
+  font-size: 20px;
+  font-weight: 200;
 }
 
-.rightSection img {
-  width: 105%;
-}
-
-.mainSection > div {
-  width: 30%;
-}
-
-.color {
-  color: rgb(34, 72, 149);
-}
-
-#element {
-  color: rgb(193, 93, 182);
-  font-size: 2.5rem;
-}
-
-.anotherSection {
-  max-width: 80vw;
-  margin: auto;
-  height: 80vh;
-}
-
-.border {
-  border: 0;
-  background: rgb(222, 96, 222);
-  height: 2px;
-  margin: 50px 90px;
-}
-
-
-/* .anotherSection .box {
-  background: #fff;
-  height: 2px;
-  margin: 35px 0;
-  width: 98rem;
-}
-
-.anotherSection .vertical {
-  background: #fff;
-  height: 80px;
-  width: 2px;
-} */
-
-.name2{
-  font-size: 18px;
-}
-
-.name{
-  font-size: 2.8rem;
+.body-container h1 {
+  padding: 10px 0;
 }

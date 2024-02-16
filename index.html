@@ -3,68 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
-      rel="stylesheet"
-    />
+    <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <nav>
-        <div class="left">Suyog's Portfolio</div>
-        <div class="right">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="/">About</a></li>
-            <li><a href="/">Services</a></li>
-            <li><a href="Vclone/index.html">Projects</a></li>
-            <li><a href="/">Contact Me</a></li>
+    <!--Header Start-->
+
+    <div class="all-container">
+      <nav class="main-navbar">
+        <div class="nav-container">
+          <ul class="nav-links">
+            <!-- <li><a class="nav-link" href="index.html">Home</a></li> -->
+            <li><a class="nav-link" href="restricted.html">About</a></li>
+            <li><a class="nav-link" href="Vclone/index.html">Projects</a></li>
+            <li><a class="nav-link" href="restricted.html">Services</a></li>
+            <!-- <li><a class="nav-link" href="restricted.html">Contact Me</a></li> -->
           </ul>
         </div>
       </nav>
-    </header>
-    <main>
-      <section class="mainSection">
-        <div class="leftSection">
-          <div class="name2">HELLO EVERYBODY, I AM</div>
-          <div class="name">SUYOG RANA MAGAR</div>
-          <div style="font-size: 20px; margin-top: 8px">
-            BSc. Csit Student
-          </div>
-          <span id="element"></span>
+
+      <!--Body start-->
+
+      <div class="main-body">
+        <div class="body-container">
+          <h1>Hey, I'm Suyog.</h1>
+          <p>I'm a student currently studying BSc.CSIT</p>
         </div>
-        <div class="rightSection">
-          <img src="./images/My project.png" alt="IMG" />
+        <div class="image">
+          <img src="images/My project.png" alt="my-photo" />
         </div>
-      </section>
-      <hr class="border" />
-      <!-- <section class="anotherSection">
-        <span class="color">My Projects Till Now</span>
-        <h1>Experience</h1>
-        <div class="box">
-          <div class="vertical"></div>
-          <div class="vertical"></div>
-          <div class="vertical"></div>
-          <div class="vertical"></div>
-        </div>
-      </section> -->
-    </main>
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script>
-      var typed = new Typed("#element", {
-        strings: ["Class Assinment", "BSc. CSIT 1st sem", "by Suyog Mgr"],
-        typeSpeed: 50,
-      });
-    </script>
+      </div>
+    </div>
   </body>
 </html>
