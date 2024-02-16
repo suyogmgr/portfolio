@@ -67,11 +67,13 @@ body {
   align-items: center;
 }
 
-.body-container {
-  font-size: 20px;
-  font-weight: 200;
-}
-
 .body-container h1 {
   padding: 10px 0;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.body-container p{
+    font-size: 18px;
+    font-weight: 200;
 }
