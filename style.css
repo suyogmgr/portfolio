@@ -147,3 +147,25 @@ body {
   margin: 40px 400px;
 }
 
+.ending{
+  text-align: center;
+}
+
+.ending h1{
+  font-size: 100px;
+  font-weight: 100;
+  color: rgb(97, 74, 119);
+  font-family: "Protest Revolution", sans-serif;
+}
+
+.ending p{
+  font-size: 12px;
+  padding-bottom: 40px;
+  font-weight: 200;
+}
+
+.protest-revolution-regular {
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
