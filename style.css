@@ -87,6 +87,7 @@ body {
   padding: 10px 0;
   font-size: 40px;
   font-weight: 300;
+  color: blueviolet;
 }
 
 .body-container p{
@@ -95,6 +96,7 @@ body {
   max-width: 330px;
   padding-bottom: 30px;
   font-size: 14px;
+  color: #fff;
 }
 
 .info-1 h2{
