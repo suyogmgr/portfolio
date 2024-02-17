@@ -59,6 +59,12 @@ body {
 .nav-link {
   text-decoration: none;
   color: #fff;
+  padding: 10px 10px;
+}
+
+.nav-link:hover{
+  background-color:rgb(35, 35, 38);
+  padding: 10px 10px;
 }
 
 .main-body {
@@ -111,4 +117,31 @@ body {
 .info-2 p{
   font-size: 14px;
   font-weight: 200;
+  padding-bottom: 100px;
 }
+
+.socials{
+  text-align: center;
+  justify-content: center;
+  font-size: 30px;
+  margin-top: 50px;
+  display: flex;
+  column-gap: 60px;
+}
+
+.socials div a i{
+  transition: transform 0.2s;
+  margin: 10px 20px;
+}
+
+.socials i:hover{
+  transform: scale(1.2);
+}
+
+.border{
+  border: 0;
+  background: rgb(105, 42, 105);
+  height: 4px;
+  margin: 40px 400px;
+}
+
