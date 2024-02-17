@@ -98,27 +98,34 @@ body {
 .body-container p{
   font-size: 18px;
   font-weight: 200;
-  max-width: 330px;
+  max-width: 500px;
   padding-bottom: 30px;
   font-size: 14px;
   color: #fff;
 }
 
-.info-1 h2{
-  font-size: 24px;
+.info-1 h3{
+  color: #fff;
   font-weight: 300;
+  font-size: 16px;
   padding-bottom: 10px;
 }
 
 .info-2 h2{
-  font-size: 24px;
-  font-weight: 300;
-  padding-bottom: 10px;
+  font-weight: 200;
+  padding-bottom: 20px;
 }
 
-.info-1 p{
+.info-1 .p1{
   font-size: 14px;
   font-weight: 200;
+  line-height: 1.5rem;
+}
+
+.info-1 .p2{
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 1.5rem;
 }
 
 .info-2 p{
@@ -131,7 +138,7 @@ body {
   text-align: center;
   justify-content: center;
   font-size: 30px;
-  margin-top: 50px;
+  margin-top: 150px;
   display: flex;
   column-gap: 60px;
 }
