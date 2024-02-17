@@ -8,6 +8,7 @@ body {
   background-color: rgba(0, 4, 8);
   color: #fff;
   font-family: "Roboto", sans-serif;
+  /* cursor: url(images/cc.png), pointer; */
 }
 
 .roboto-thin {
@@ -55,6 +56,10 @@ body {
   column-gap: 80px;
   padding: 20px 0;
 }
+
+/* .nav-container{
+  background-color: rgb(27, 4, 48);
+} */
 
 .nav-link {
   text-decoration: none;
