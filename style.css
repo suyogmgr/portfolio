@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgba(0, 4, 8);
+  background-color: rgb(2, 12, 21);
   color: #fff;
   font-family: "Roboto", sans-serif;
   /* cursor: url(images/cc.png), pointer; */
@@ -73,13 +73,6 @@ body {
   padding: 10px 10px;
 }
 
-/* .dropdown-content{
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-} */
-
 .nav-link-dropdown:hover{
   padding: 10px 10px;
   background-color:rgb(35, 35, 38);
@@ -92,10 +85,11 @@ body {
 
 .main-body {
   display: flex;
-  justify-content:center;
+  justify-content: space-evenly;
   column-gap: 100px;
   align-items: center;
   margin-top: 150px;
+  margin-left: 150px;
 }
 
 .profile .henci{
@@ -105,36 +99,38 @@ body {
   width: 300px;
 }
 
+.body-container{
+  margin-right: 50px;
+}
 
 .body-container h1 {
   padding: 10px 0;
   font-size: 40px;
   font-weight: 300;
-  color: blueviolet;
+  color: rgb(86, 61, 184);
 }
 
 .body-container p{
-  font-size: 18px;
-  font-weight: 200;
   max-width: 500px;
+  font-weight: 300;
   padding-bottom: 30px;
-  font-size: 14px;
+  font-size: 18px;
   color: #fff;
 }
 
-.info-1 h3{
+/* .info-1 h3{
   color: #fff;
   font-weight: 300;
   font-size: 16px;
   padding-bottom: 10px;
-}
+} */
 
-.info-2 h2{
+/* .info-2 h2{
   font-weight: 200;
   padding-bottom: 20px;
-}
+} */
 
-.info-1 .p1{
+/* .info-1 .p1{
   font-size: 14px;
   font-weight: 200;
   line-height: 1.5rem;
@@ -144,13 +140,13 @@ body {
   font-size: 14px;
   font-weight: 200;
   line-height: 1.5rem;
-}
+} */
 
-.info-2 p{
+/* .info-2 p{
   font-size: 14px;
   font-weight: 200;
   padding-bottom: 100px;
-}
+} */
 
 #socials{
   text-align: center;
