@@ -1,0 +1,36 @@
+
+/* For smaller devices */
+@media (max-width: 600px){
+    .navcontainer li:not(:last-child){
+        display: none;
+    }
+
+    .navcontainer{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .navcontainer .nav_icon,
+    .navcontainer .navlogo{
+       padding: 0 100px;
+    }
+
+    .navcontainer .nav_icon{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn .cv-btn{
+        display: none;
+    }
+
+    .mainbody p{
+        display: none;
+    }
+
+    .body-img {
+        display: none;
+    }
+}

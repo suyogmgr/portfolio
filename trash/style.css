@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Font */
+
+.space-grotesk{
+  font-family: "Space Grotesk", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Navbar */
+
+nav .nav_btn{
+    display: none;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    justify-content: space-evenly;
+    background-color: rgb(16, 28, 41);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 60px;
+}
+
+.logo_img img{
+    max-height: 50px;
+    width: auto;
+    display: block;
+}
+
+.logo_img img:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s;
+}
+
+nav .navlink{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    list-style-type: none;
+}
+
+nav .navlink .navlinks{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+    color: hsl(240, 1%, 76%); 
+    height: 60px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav .navlink .navlinks:hover{
+    color: hsl(0, 0%, 100%);
+    transform: scale(1.1);
+    transition: transform 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+nav .navlink .navlinks:focus{
+    background-color: hsl(293, 22%, 29%);
+}
+
+/* nav .navlink .navlinks:focus{
+    outline: 1px solid rgb(246, 4, 44);
+    outline-offset: 1px;
+} */
+ 
