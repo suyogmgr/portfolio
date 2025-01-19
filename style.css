@@ -189,19 +189,6 @@
     transition: transform var(--trans-duration), background-color var(--trans-duration), box-shadow var(--trans-duration);
 }
 
-.btn .cv-btn:hover,
-.navcontainer .navlink .navlinks:hover{
-    transform: scale(1.1);
-    background-color: rgba(76, 175, 80, 0.5);
-}
-
-.btn .cv-btn:active,
-.navcontainer .navlink .navlinks:active{
-    transform: scale(0.95);
-    background-color: rgba(76, 175, 80, 0.3);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) inset;
-}
-
 .navcontainer .nav_icon{
     display: none;
     color: #ffffff;
@@ -212,9 +199,9 @@
 }
 
 
-/* Cv Download Btn*/
+/* All Btn*/
 
-
+.contact-form .c-form .btn .ct-btn,
 .btn .cv-btn{
     padding: 10px 20px;
     border: 2px solid rgb(173, 255, 47);
@@ -227,6 +214,21 @@
     justify-content: center;
     height: 100%;
     transition: transform var(--trans-duration), background-color var(--trans-duration);
+}
+
+.contact-form .c-form .btn .ct-btn:hover,
+.btn .cv-btn:hover,
+.navcontainer .navlink .navlinks:hover{
+    transform: scale(1.1);
+    background-color: rgba(76, 175, 80, 0.8);
+}
+
+.contact-form .c-form .btn .ct-btn:active,
+.btn .cv-btn:active,
+.navcontainer .navlink .navlinks:active{
+    transform: scale(0.95);
+    background-color: rgba(76, 175, 80, 0.3);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) inset;
 }
 
 /* Main Body */
@@ -277,6 +279,43 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
+
+/* Contact Form */
+
+.contact-form{
+  height: 100vh;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(81, 229, 81);
+}
+
+.contact-form .c-form{
+  max-width: 500px;
+}
+.contact-form .c-form h2{
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.contact-form .c-form label{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.contact-form .c-form .btn{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .contact-form .c-form #message{
+  padding: 40px;
+} */
+
 /* Footer */
 
 footer{
@@ -294,11 +333,19 @@ footer{
 }
 
 .socials .icons .links{
-  transition: transform var(--trans-duration);
+  padding: 5px 15px;
+  border-radius: 10px;
+  background-color: #800020;
+  transition: transform var(--trans-duration), background-color var(--trans-duration);
 }
 
 .socials .icons .links:hover{
-  transform: scale(1.2);
+  transform: rotate(180deg);
+  
+}
+
+.socials .icons .links a i{
+  color:#FFD700;
 }
 
 .footer-logo{
@@ -327,7 +374,12 @@ footer{
 
 #footer-line hr{
   border: 0;
-  background-color:  rgb(173, 255, 47);
-  height: 3px;
-  margin: 40px 400px;
+  background-color: rgb(226, 219, 37);
+  height: 4px;
+  margin: 40px 420px;
+  transition: transform var(--trans-duration);
+}
+
+#footer-line hr:hover{
+  transform: scaleX(1.2);
 }
