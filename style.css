@@ -281,7 +281,7 @@
 
 
 /* Contact Form */
-
+/* 
 .contact-form{
   height: 100vh;
   width: auto;
@@ -289,10 +289,15 @@
   justify-content: center;
   align-items: center;
   background-color: rgb(81, 229, 81);
+  
 }
 
 .contact-form .c-form{
   max-width: 500px;
+  padding: 40px;
+  background-color: rgb(255, 255, 0);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+  transition: background-color var(--trans-duration) ease;
 }
 .contact-form .c-form h2{
   font-size: 24px;
@@ -312,8 +317,18 @@
   align-items: center;
 }
 
-/* .contact-form .c-form #message{
-  padding: 40px;
+.contact-form .c-form #name, #email, #subject{
+  padding: 5px 0;
+  outline: none;
+}
+
+.contact-form .c-form #message{
+  padding: 40px 0;
+  outline: none;
+}
+
+.contact-form .c-form:hover{
+  background-color: rgba(255, 255, 0, 0.8);
 } */
 
 /* Footer */
@@ -352,6 +367,7 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 40px;
 }
 
 .footer-logo img{
@@ -369,17 +385,5 @@ footer{
 
 .footer-txt p{
   font-style: italic;
-  font-size: 14px;
-}
-
-#footer-line hr{
-  border: 0;
-  background-color: rgb(226, 219, 37);
-  height: 4px;
-  margin: 40px 420px;
-  transition: transform var(--trans-duration);
-}
-
-#footer-line hr:hover{
-  transform: scaleX(1.2);
+  margin-bottom: 20px;
 }
