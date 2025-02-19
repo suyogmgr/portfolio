@@ -2,4 +2,13 @@
     --nav-bg-color: rgb(19, 33, 54);
     --trans-duration: 0.3s;
     --main-body-color: rgb(0,0,0);
+    --scale-on-active: scale(0.97);
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+html{
+    scroll-behavior: smooth;
 }

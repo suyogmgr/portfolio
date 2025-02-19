@@ -1,6 +1,6 @@
 
 /* For smaller devices */
-@media (max-width: 600px){
+@media (max-width: 880px){
     .navcontainer li:not(:last-child){
         display: none;
     }

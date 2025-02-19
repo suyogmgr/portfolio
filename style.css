@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Poppins", serif;
+    font-family: "Roboto", serif;
 }
 
 #nav-body-container{
@@ -13,133 +13,16 @@
 
 /* Google Font */
 
-.poppins-thin {
-    font-family: "Poppins", serif;
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-  .poppins-extralight {
-    font-family: "Poppins", serif;
-    font-weight: 200;
-    font-style: normal;
-  }
-  
-  .poppins-light {
-    font-family: "Poppins", serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .poppins-regular {
-    font-family: "Poppins", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .poppins-medium {
-    font-family: "Poppins", serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .poppins-semibold {
-    font-family: "Poppins", serif;
-    font-weight: 600;
-    font-style: normal;
-  }
-  
-  .poppins-bold {
-    font-family: "Poppins", serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .poppins-extrabold {
-    font-family: "Poppins", serif;
-    font-weight: 800;
-    font-style: normal;
-  }
-  
-  .poppins-black {
-    font-family: "Poppins", serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-  .poppins-thin-italic {
-    font-family: "Poppins", serif;
-    font-weight: 100;
-    font-style: italic;
-  }
-  
-  .poppins-extralight-italic {
-    font-family: "Poppins", serif;
-    font-weight: 200;
-    font-style: italic;
-  }
-  
-  .poppins-light-italic {
-    font-family: "Poppins", serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .poppins-regular-italic {
-    font-family: "Poppins", serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .poppins-medium-italic {
-    font-family: "Poppins", serif;
-    font-weight: 500;
-    font-style: italic;
-  }
-  
-  .poppins-semibold-italic {
-    font-family: "Poppins", serif;
-    font-weight: 600;
-    font-style: italic;
-  }
-  
-  .poppins-bold-italic {
-    font-family: "Poppins", serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
-  .poppins-extrabold-italic {
-    font-family: "Poppins", serif;
-    font-weight: 800;
-    font-style: italic;
-  }
-  
-  .poppins-black-italic {
-    font-family: "Poppins", serif;
-    font-weight: 900;
-    font-style: italic;
-  }
-  
 
-/* Background Image*/
-
-/* .bgimg {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    overflow: hidden;
+.roboto-port {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
-.bgimg img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; 
-} 
-*/
 
 /* Navigation Bar */
 
@@ -154,6 +37,7 @@
     z-index: 10;
     font-weight: 400;
     font-size: 18px;
+    flex-wrap: nowrap;
     background-color: transparent;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -226,7 +110,7 @@
 .contact-form .c-form .btn .ct-btn:active,
 .btn .cv-btn:active,
 .navcontainer .navlink .navlinks:active{
-    transform: scale(0.95);
+    transform: scale(0.97);
     background-color: rgba(76, 175, 80, 0.3);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) inset;
 }
@@ -270,71 +154,97 @@
   object-fit: cover;
   display: block;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  transition: transform var(--trans-duration) ease;
 
 }
 
 .body-img img:hover{
-  transform: scale(1.05);
-  transition: transform var(--trans-duration) ease;
+  transform: translateY(-6px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 
-/* Contact Form */
-/* 
-.contact-form{
+/*Projects*/
+
+.projects{
+  text-align: center;
   height: 100vh;
-  width: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(81, 229, 81);
-  
+  border-bottom: 4px solid #FFD700;
+  background-color: var(--main-body-color);
 }
 
-.contact-form .c-form{
-  max-width: 500px;
-  padding: 40px;
-  background-color: rgb(255, 255, 0);
-  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
-  transition: background-color var(--trans-duration) ease;
+#project-title{
+  font-size: 36px;
+  color: #ddd;
+  margin-bottom: 10vh;
+  padding-top: 15vh;
 }
-.contact-form .c-form h2{
-  font-size: 24px;
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card{
+  width: 350px;
+  height: 400px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  /* background-image: linear-gradient(45deg,#654EA3 , #EAAFC8); */
+  background-color: rgb(146, 50, 50);
+  transition: all var(--trans-duration) ease-in-out;
+}
+
+.card p{
+  font-size: 26px;
   font-weight: 500;
+  margin: 0;
+  color: #ECF0F1;
+  padding: 20px;
+
+  /* background-image: linear-gradient(45deg,#EA8D8D, #A890FE);
+  background-clip: text;
+  -webkit-text-fill-color: transparent; */
 }
 
-.contact-form .c-form label{
-  display: flex;
-  align-items: center;
-  margin-top: 20px;
+.card i{
+  font-size: 130px;
+  padding: 50px;
 }
 
-.contact-form .c-form .btn{
-  margin-top: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.wrapper:hover :not(.card:hover){
+  opacity: 0.4;
 }
 
-.contact-form .c-form #name, #email, #subject{
-  padding: 5px 0;
-  outline: none;
+.card:hover{
+  transform: scale(1.05);
+  opacity: 1;
 }
 
-.contact-form .c-form #message{
-  padding: 40px 0;
-  outline: none;
+.card:active{
+  transform: var(--scale-onactive);
 }
 
-.contact-form .c-form:hover{
-  background-color: rgba(255, 255, 0, 0.8);
-} */
+
+.progress-bar{
+  background-color: #ddd;
+  width: 100%;
+  height: 8px;
+  border-radius: 4px;
+}
+
+.progress{
+  background-color: rgb(112, 112, 201);
+  height: inherit;
+  border-radius: 4px;
+}
+
 
 /* Footer */
 
 footer{
   background-color: var(--main-body-color);
+  height: 45vh;
 }
 
 .socials .icons{
@@ -344,7 +254,7 @@ footer{
   justify-content: center;
   list-style-type: none;
   column-gap: 80px;
-  padding-top: 80px;
+  padding-top: 30px;
 }
 
 .socials .icons .links{
@@ -383,7 +293,14 @@ footer{
   align-items: center;
 }
 
-.footer-txt p{
-  font-style: italic;
-  margin-bottom: 20px;
+#footer-text{
+  background-image: linear-gradient(#009245,#FCEE21);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-weight: 500;
+  font-size: 36px;
+  padding-top: 80px;
 }
+
+
