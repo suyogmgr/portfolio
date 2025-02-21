@@ -1,36 +1,76 @@
 
-/* For smaller devices */
-@media (max-width: 880px){
-    .navcontainer li:not(:last-child){
+@media only screen and (max-width: 768px){
+    /* Navigation Bar */
+    
+    .nav-toggle{
+        display: flex;
+    }
+
+    .navlinks{
         display: none;
+        background-color: #b3dad0;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        width: 40%;
+        padding: 75px 0;
+        justify-content: right;
+        height: 100vh;
     }
 
-    .navcontainer{
+    .navlinks.active{
         display: flex;
-        justify-content: space-around;
+
     }
 
-    .navcontainer .nav_icon,
-    .navcontainer .navlogo{
-       padding: 0 100px;
+    .navlinks .nav-link{
+        margin: 10px 0;
     }
 
-    .navcontainer .nav_icon{
-        display: block;
-        display: flex;
+
+    /* Home Section */
+
+    .home-section .container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
         justify-content: center;
-        align-items: center;
+        place-items: center;
+        padding-left: 6rem;
+        margin-top: 10rem;
     }
 
-    .btn .cv-btn{
-        display: none;
+    .home-profile{
+        width: clamp(200px, 80%, 300px);
+        height: 45vh;
+        max-width: 300px;
     }
 
-    .mainbody p{
-        display: none;
+    .home-content{
+        text-align: center;
     }
 
-    .body-img {
-        display: none;
+    .home-title{
+        font-size: 1.5rem;
+    }
+    
+    .home-intro{
+        font-size: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .social-links{
+        font-size: 2rem;
+    }
+
+
+    /* Projects Section */
+
+    .project-section{
+        height:130vh;
+    }
+    .project-grid{
+        grid-template-columns:400px;
+        justify-content:center;
     }
 }
