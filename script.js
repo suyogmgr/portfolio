@@ -27,4 +27,31 @@ menuToggle.addEventListener("click", function(){
 
 
 
+/* For abbreviation of languages */
 
+// function noText(){
+
+//     const replace = document.querySelectorAll(".subheading");
+
+//     const icons = [
+//         '<i class="fa-brands fa-python"></i>',
+//         '<i class="fa-brands fa-js"></i>',
+//         '<i class="fa-brands fa-html5"></i>',
+//         '<i class="fa-brands fa-css3-alt"></i>'
+//     ];
+
+//     replace.forEach((icon, index)=> {
+//         if (!icon.dataset.original){
+//             icon.dataset.original = icon.innerHTML;
+//         }
+//         if(window.innerWidth <= 1005) {
+//             icon.innerHTML = `<h1>${icons[index % icons.length]}</h1>`
+//         }else{
+//             icon.innerHTML = icon.dataset.original; 
+//         }
+//     });
+// }
+
+
+// window.addEventListener("resize",noText);
+// noText();
