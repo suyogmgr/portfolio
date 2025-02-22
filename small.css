@@ -66,9 +66,7 @@
     .social-links{
         display: flex;
         position: absolute;
-        bottom: 0;
-        right: 0;
-        left: 0;
+        bottom: -1rem;
         padding-left: 45px;
         align-items: center;
         justify-content: space-evenly;

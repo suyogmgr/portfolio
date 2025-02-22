@@ -18,7 +18,7 @@ header{
     /* background-color:rgb(24, 33, 48); */
     /* background-color:  #707070; */
     background-color: #333333;
-    padding: 15px 20px;
+    /* padding: 15px 20px; */
     position: fixed;
     width: 100%;
     top: 0; /*always on top*/
@@ -36,7 +36,7 @@ header{
 .nav-logo{
     font-family: "Playfair Display", serif;
     color: #fff;
-    font-size: 3.5rem;
+    font-size: 3.2rem;
     font-weight: 400;
     text-decoration: none;
     cursor: pointer;
