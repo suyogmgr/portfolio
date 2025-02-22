@@ -63,6 +63,7 @@ header{
     transition: transform 0.3s ease, color 0.3s ease;
 }
 
+
 .nav-link:hover{
     color: rgb(28, 28, 240);
     /* transform: scale(1.2); */
@@ -169,7 +170,7 @@ header{
 }
 
 .social-links i{
-    color: rgb(63, 0, 250);
+    color: #ffffff;
     transition: all 1s ease;
 }
 
