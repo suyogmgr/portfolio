@@ -367,7 +367,6 @@ header{
     padding: 1.5rem;
 }
 
-
 .contact-section{
     display: flex;
     width: 70%;
@@ -389,8 +388,7 @@ header{
 .contact-box{
     position: relative;
     bottom: 8rem;
-    background-color:rgba(45,33,37,1);
-    color: #fff;
+    background-color:#f4ebeb;
     padding:50px;
     width: 80%;
     transition: box-shadow 0.3s ease;
@@ -414,7 +412,7 @@ header{
 .contact-box i{
     font-size: 3rem;
     padding: 1rem;
-    color: rgba(197,174,245,1);
+    color: rgb(35, 42, 232);
 }
 
 .contact-box h2{
