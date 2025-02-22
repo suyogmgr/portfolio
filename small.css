@@ -4,6 +4,8 @@
     
     .nav-toggle{
         display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .navlinks{
@@ -20,7 +22,7 @@
     }
 
     .nav-toggle div{
-        background-color: #fff;
+        background-color: #fff;;
     }
 
     .navlinks.active{
@@ -57,7 +59,7 @@
     }
     
     .home-intro{
-        font-size: 2rem;
+        font-size: 1.8rem;
         padding-bottom: 3rem;
     }
 
@@ -109,6 +111,11 @@
 
     .skill-section{
         width: 100%;
+    }
+
+    .skill-title{
+        text-align: left;
+        padding: 1rem;
     }
 
     .contact-section{

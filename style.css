@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
 }
 
 body{
@@ -153,12 +153,12 @@ header{
 }
 .home-title{
     font-size: 1.5rem;
-    margin-top: 4rem;
+    margin-top: 3rem;
 }
 
 .home-intro{
     font-size: 6rem;
-    margin-top: 3rem;
+    margin-top: 2.5rem;
 }
 
 .social-links{
