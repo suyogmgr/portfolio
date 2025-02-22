@@ -15,7 +15,9 @@ body{
 
 header{
     /* background-color: #b3dad0; */
-    background-color:rgb(24, 33, 48);
+    /* background-color:rgb(24, 33, 48); */
+    /* background-color:  #707070; */
+    background-color: #333333;
     padding: 15px 20px;
     position: fixed;
     width: 100%;
@@ -119,7 +121,8 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #d0daf0;
+    /* background-color: #d0daf0; */
+    background-color: #7F8C8D;
 }
 
 .home-section .container{
@@ -180,7 +183,8 @@ header{
 
 .project-section{
     text-align: center;
-    background-color: rgb(16,25,39);
+    /* background-color: rgb(16,25,39); */
+    background-color: #34495E;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -232,7 +236,7 @@ header{
     font-family: "Playfair Display", serif;
     font-size: 3.5rem;
     color: #fff;
-    padding: 2rem;
+    padding-bottom: 5rem;
     text-transform: uppercase;
 }
 
