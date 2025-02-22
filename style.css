@@ -121,11 +121,11 @@ header{
 .home-section{
     height: 100vh;
     display: flex;
-    color: #fff;
+    color: #000;
     justify-content: center;
     align-items: center;
-    /* background-color: #d0daf0; */
-    background-color: #7F8C8D;
+    background-color: #d0daf0;
+    /* background-color: #7F8C8D; */
 }
 
 .home-section .container{
@@ -172,7 +172,7 @@ header{
 }
 
 .social-links i{
-    color: #ffffff;
+    color: #000;
     transition: all 1s ease;
 }
 
@@ -187,7 +187,7 @@ header{
 .project-section{
     text-align: center;
     /* background-color: rgb(16,25,39); */
-    background-color: #34495E;
+    background-color:rgba(16,24,38,1);
     min-height: 100vh;
     display: flex;
     align-items: center;
