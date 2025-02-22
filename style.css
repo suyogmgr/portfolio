@@ -121,6 +121,7 @@ header{
 .home-section{
     height: 100vh;
     display: flex;
+    color: #fff;
     justify-content: center;
     align-items: center;
     /* background-color: #d0daf0; */
@@ -263,7 +264,8 @@ header{
     max-width: 100%; */
     /* background: linear-gradient(#df0e0e, #999999); */
     width: 100%;
-    background: linear-gradient(90deg, #a1c4fd, #c2e9fb);
+    background-color:rgba(13,59,80,1);
+    /* background: linear-gradient(90deg, #a1c4fd, #c2e9fb); */
 }
 
 .skill-section{
@@ -287,6 +289,7 @@ header{
     font-weight: 400;
     font-size: 2.5rem;
     max-width: 68%;
+    color: #fff;
 }
 
 .skill-card{
@@ -386,7 +389,8 @@ header{
 .contact-box{
     position: relative;
     bottom: 8rem;
-    background-color: #f9efef;
+    background-color:rgba(45,33,37,1);
+    color: #fff;
     padding:50px;
     width: 80%;
     transition: box-shadow 0.3s ease;
@@ -403,13 +407,14 @@ header{
     text-align: center;
     font-family: "Bona Nova", serif;
     color: #fff;
+    font-weight: 600;
     margin-top: 4rem;
 }
 
 .contact-box i{
     font-size: 3rem;
     padding: 1rem;
-    color: #002cda;
+    color: rgba(197,174,245,1);
 }
 
 .contact-box h2{
