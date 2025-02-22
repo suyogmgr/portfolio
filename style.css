@@ -47,6 +47,7 @@ header{
 }
 
 .navlinks{
+    font-family: "Bona Nova", serif;
     list-style-type: none;
     display: flex;
     gap: 2.5rem;
@@ -215,9 +216,10 @@ header{
     align-items: center;
     text-align: center;
     width: 100%;
-    border-radius: 15px;
+    border-radius: 8px;
     overflow: hidden;
-    background-color: rgb(64,212,156);
+    /* background-color: rgb(64,212,156); */
+    background-color: #5f5454;
     transition: transform 0.3s ease;
 }
 
@@ -234,7 +236,7 @@ header{
 }
 
 .project-text{
-    font-family: "Playfair Display", serif;
+    font-family: "Bona Nova", serif;
     font-size: 3.5rem;
     color: #fff;
     padding-bottom: 5rem;
@@ -280,13 +282,15 @@ header{
 }
 
 .skill-title{
-    font-family: "Oswald", serif;
+    font-family: "Bona Nova", serif;
     padding: 2rem;
+    font-weight: 400;
     font-size: 2.5rem;
     max-width: 68%;
 }
 
 .skill-card{
+    font-family: "Bona Nova", serif;
     background-color: rgb(128, 128, 128);
     width: 60%;
     border-radius: 0 5px 5px 0;
@@ -306,7 +310,6 @@ header{
 .gradient-py .subheading i{
     color: #FFD43B;
 }
-
 
 .gradient-java .subheading{
     background: linear-gradient(90deg,rgb(255, 68, 0),rgb(255, 166, 0));
@@ -350,7 +353,10 @@ header{
     /* box-shadow: 5px 5px 15px; */
     box-shadow: 0px 0px 15px rgba(9, 2, 149, 0.5);
     border-right: 5px solid #39393d; /* Highlight effect */
+}
 
+.skill-card:active{
+    width: 60%;
 }
 
 .skill-card .subheading{
@@ -395,7 +401,7 @@ header{
     padding: 10rem;
     font-size: 3rem;
     text-align: center;
-    font-family: "Oswald", serif;
+    font-family: "Bona Nova", serif;
     color: #fff;
     margin-top: 4rem;
 }
@@ -408,6 +414,7 @@ header{
 
 .contact-box h2{
     text-align: center;
+    font-family: "Bona Nova", serif;
     padding: 20px;
 }
 
@@ -440,10 +447,11 @@ footer h1{
     font-family: "Oswald", serif;
     font-size: 4rem;
     font-weight: 400;
+    font-family: "Bona Nova", serif;
 }
 
 footer h2{
-    font-family: "Playfair Display", serif;
+    font-family: "Bona Nova", serif;
     text-align: center;
     text-transform: uppercase;
     font-size: 1.1rem;
@@ -459,6 +467,7 @@ footer span{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    font-family: "Bona Nova", serif;
     padding: 1rem;
 }
 
@@ -469,6 +478,7 @@ footer span{
 }
 
 .text{
+    font-family: "Bona Nova", serif;
     text-align: center;
     padding: 1.1rem;
 }

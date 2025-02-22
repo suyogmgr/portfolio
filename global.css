@@ -123,6 +123,25 @@
     font-style: normal;
 }
 
+.bona-nova-regular {
+  font-family: "Bona Nova", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bona-nova-bold {
+  font-family: "Bona Nova", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.bona-nova-regular-italic {
+  font-family: "Bona Nova", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
 
 :root{
   --trans-time: 0.3s;
