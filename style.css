@@ -119,6 +119,7 @@ header{
 
 
 .home-section{
+    height: 100dvh;
     height: 100vh;
     display: flex;
     color: #000;
@@ -301,7 +302,7 @@ header{
     flex-direction: column;
     justify-content: center;
     /* box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.2); */
-    box-shadow: 0px 0px 10px rgba(0, 237, 237, 0.1);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease, width 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -354,7 +355,7 @@ header{
 .skill-card:hover{
     width: 70%;
     /* box-shadow: 5px 5px 15px; */
-    box-shadow: 0px 0px 15px rgba(9, 2, 149, 0.5);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
     border-right: 5px solid #39393d; /* Highlight effect */
 }
 
