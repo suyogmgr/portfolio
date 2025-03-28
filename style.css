@@ -23,6 +23,7 @@
 
 html {
   background-color: var(--base-clr);
+  scroll-behavior: smooth;
 }
 
 a,
@@ -53,7 +54,7 @@ body {
   margin: 0 auto;
   font-family: "Poppins", sans-serif;
   color: #fff;
-  scroll-behavior: smooth;
+
   background-color: var(--base-clr);
 }
 
@@ -323,25 +324,68 @@ nav {
   padding: 13px 20px;
   background-color: var(--pure-dark);
   border-radius: 100px;
+  transform: translateX(0);
+  visibility: visible;
+  opacity: 1;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-  /* box-shadow: 0 0 8px rgba(0, 4, 255, 0.8), 0 0 10px rgba(0, 4, 255, 0.7); */
+  transition: 300ms ease-in-out;
 }
 
 .nav-links ul {
   display: flex;
   list-style-type: none;
+  align-items: center;
   gap: 1em;
 }
+
+
+#hide-btn{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 2em;
+}
+
+#hide-btn svg{
+  padding: 2px;
+  height: 40px;
+  fill: var(--pure-white);
+  transition: 300ms ease;
+  border-radius: 5px;
+}
+
+#hide-btn svg:hover{
+  background-color: var(--hover-clr);
+}
+
+.hide{
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(100%);
+  transition: 300ms ease-in-out;
+}
+
 
 .nav-links a {
   transition: all 200ms ease;
   display: inline-block;
 }
 
-.nav-links a:hover {
-  color: #e8bf1f;
-  transform: scale(1.1);
+.nav-links svg {
+  fill: #FFFFFF;
+  height: 34px;
+  border-radius: 10px;
+  padding: 4px;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
 }
+
+.nav-links a:hover svg {
+  background-color: #228B22;
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
 
 /*=========MAIN AREA========*/
 main {
@@ -538,7 +582,7 @@ main {
 }
 
 .social-icons a:hover::after {
-  transform: translateY(-42px);
+  transform: translateY(-38px);
   opacity: 1;
 }
 
@@ -866,6 +910,10 @@ footer {
 
 .footer-links {
   text-align: center;
+}
+
+footer .title h1{
+  padding: 0;
 }
 
 .socials {

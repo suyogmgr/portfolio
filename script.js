@@ -10,3 +10,8 @@ function toggleSidebar(){
     sidebar.classList.toggle('hide');
 }
 
+
+const hide = document.getElementById('nav-links');
+function sideBar(){
+    hide.classList.toggle('hide');
+}
