@@ -277,8 +277,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
               <div class="about-text">
                 <p>Hi, I'm Suyog Rana Magar</p>
                 <span>
-                  A developer with experience in building projects using vanilla <strong>JavaScript, CSS, HTML, PHP, Python, and Java</strong>. I enjoy crafting clean, efficient code and bringing ideas to life through well-structured and functional applications.
-                  With a strong foundation in both frontend and backend development, I focus on creating seamless user experiences while optimizing performance. Whether it's designing dynamic web applications, working with databases, or solving complex programming challenges,
+                  A developer who enjoys coding. I enjoy crafting clean, efficient code and bringing ideas to life through well-structured and functional applications.
+                  I focus on creating seamless user experiences while optimizing performance. Whether it's designing dynamic web applications, working with databases, or solving complex programming challenges,
                   I'm always eager to learn and improve my skills.
                   <br><strong>Let's connect and build something amazing!</strong>
                 </span>
