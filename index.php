@@ -495,7 +495,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </div>
 
         <!-- CONTACE ME -->
-        <div id="contact" class="contact-section">
+        <!-- <div id="contact" class="contact-section">
           <div class="title">
             <h1>Message Me</h1>
           </div>
@@ -510,7 +510,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
               <span><?php echo $email_err; ?></span>
 
               <label for="message">Message<span>*</span></label>
-              <!-- <textarea name="message" id="message" required></textarea> -->
+            
               <input type="textarea" id="message" name="message" required>
               <span><?php echo $msg_err; ?></span>
 
@@ -520,7 +520,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
               </div>
             </form>
           </div>
-        </div>
+        </div> -->
       </main>
 
       <footer id="footer">
